@@ -7,7 +7,7 @@ do
     toilet -f small "FrankoSav"
     
     echo "1. Actualizar sistema"
-    echo "2. Actualizar aplicaciones"
+    echo "2. Actualizar repositorios"
     echo "3. Salir"
     echo
     read -p "Selecciona una opción: " opcion
@@ -15,12 +15,15 @@ do
         1)
             # Actualizar sistema
             sudo apt-get update && sudo apt-get upgrade -y
+            sudo apt dist-upgrade
             toilet -f small "Actualizado Rey"
             read -p "Presiona Enter para continuar"
         ;;
         2)
-            # Actualizar aplicaciones
+            # Actualizar Repositorios
             sudo parrot-upgrade -y
+            git fetch --all
+            git pull --all
             toilet -f small "Actualizado Rey"
             read -p "Presiona Enter para continuar"
         ;;
