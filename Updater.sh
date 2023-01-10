@@ -4,7 +4,8 @@
 while :
 do
     clear
-    toilet -f small "FrankoSav"
+    figlet "UPDATER"
+    echo "By:FrankoSav"
     
     echo "1. Actualizar sistema"
     echo "2. Actualizar repositorios"
