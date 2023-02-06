@@ -1,2 +1,2 @@
 # UPDATERLINUX
-El tipico script para actualizar tu sistema operativo, el tiempo es oro ahorrate los 5 segundos qe se tardan en actualizar manualmente <3
+The typical script to update your operating system, time is money save the 5 seconds it takes to update manually <3
