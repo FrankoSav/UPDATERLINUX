@@ -7,7 +7,7 @@ do
     figlet "UPDATERLINUX"
     echo "By:FrankoSav"
     
-    echo "1- Update Kali Linux"
+    echo "1- Update Linux"
     echo "2- Update Parrot Os"
     echo "3- Exit"
     echo
